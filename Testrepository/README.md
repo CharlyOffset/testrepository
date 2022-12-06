@@ -1,6 +1,4 @@
 # ceci est un readme2
-<<<<<<< HEAD
+feature 1
 feature 2
-=======
-feature1
->>>>>>> Master
+feature 2.1
