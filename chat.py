@@ -1,7 +1,7 @@
 import random
 import json
 import streamlit as st
-#import torch
+import torch
 import time
 
 from model import NeuralNet
