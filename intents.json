@@ -1,0 +1,84 @@
+{
+    "intents": [
+      {
+        "tag": "greeting",
+        "patterns": [
+          "salut",
+          "ça va",
+          "quoi de neuf",
+          "bonjour"
+        ],
+        "responses": [
+          "Salut",
+          "Salut, comment allez-vous ?",
+          "Bonjour, que puis-je faire pour vous ?",
+          "Salut, comment puis-je vous aider ?"
+        ]
+      },
+      {
+        "tag": "goodbye",
+        "patterns": ["Bye", "Au revoir", "À plus"],
+        "responses": [
+          "À la prochaine",
+          "Bonne journée à vous",
+          "Bye ! Vous serez toujours le bienvenu."
+        ]
+      },
+      {
+        "tag": "thanks",
+        "patterns": ["merci", "thanks", "merci beaucoup !"],
+        "responses": ["Heureux de vous aider !", "Avec plaisir !", "De rien"]
+      },
+      {
+        "tag": "items",
+        "patterns": [
+          "Comment vérifier si une carte client fonctionne ?",
+          "Comment s'assurer qu'une carte client fonctionne parfaitement ?"
+        ],
+        "responses": [
+          "Voici comment procéder :\n- Insérez la carte admin dans le terminal à carte.\n- Cliquez sur vérification.\n- Retirez la carte admin puis insérez la carte défectueuse.\n- Enfin, cliquez sur le bouton vert pour imprimer.\n- Sur le papier vérifié au niveau du statut, si c'est actif, cela veut dire que la carte fonctionne bien. Dans le cas contraire, la carte ne fonctionne pas, vous pouvez la renvoyer à la direction."
+        ]
+      },
+      {
+        "tag": "office",
+        "patterns": [
+          "Comment craquer les logiciels de la suite Office ?",
+          "La clé produit de mon Excel est expirée."
+        ],
+        "responses": [
+          "Voici comment craquer les logiciels de la suite Office :\n- Assurez-vous d'abord que la clé produit a expiré.\n- Changez de session et allez sur la session admin avec le mot de passe fourni par votre supérieur.\n- Désactivez l'antivirus.\n- Ensuite, allez dans le disque Data et double-cliquez sur le logiciel KMSpico pour l'ouvrir.\n- Insérez le mot de passe suivant : intercrack.net\n- Ensuite, cliquez sur suivant jusqu'au bout.\n- Déconnectez-vous de la session admin et reconnectez-vous sur la session de l'utilisateur pour vérifier si le logiciel a été craqué.\n- Si ce n'est pas craqué, recommencez le processus.\nhttps://www.youtube.com/watch?v=GBHLbrR2HWA&list=PLxEotyyr3Y769wVgmazWlhQnqW6Ki_Adg"
+        ]
+      },
+      {
+        "tag": "internet",
+        "patterns": [
+          "Je ne parviens pas à avoir la connexion internet sur mon ordinateur.",
+          "Mon ordinateur ne se connecte pas à internet."
+        ],
+        "responses": [
+          "Étapes de dépannage pour problèmes de connexion internet :\n1. Vérifiez le câble réseau et les connexions physiques.\n- Assurez-vous que le câble réseau est correctement connecté à votre ordinateur et à votre routeur ou modem.\n- Essayez de débrancher et rebrancher le câble pour vous assurer qu'il est bien en place.\n2. Redémarrez votre routeur ou modem.\n- Parfois, redémarrer le routeur ou le modem peut résoudre des problèmes de connexion. Débranchez-le, attendez environ 30 secondes, puis rebranchez-le.\n3. Vérifiez les paramètres de réseau.\n- Ouvrez le Panneau de configuration.\n- Allez dans 'Centre Réseau et partage' puis cliquez sur 'Modifier les paramètres de la carte'.\n- Assurez-vous que la connexion réseau est activée. Faites un clic droit dessus et choisissez 'Diagnostiquer' pour voir si Windows peut détecter et résoudre des problèmes.\nhttps://www.youtube.com/watch?v=VIq5wADM-5I"
+        ]
+      },
+      {
+        "tag": "creation",
+        "patterns": [
+          "Processus de création de cartes clients",
+          "Je veux la procédure pour créer les cartes client"
+        ],
+        "responses": [
+          "Voici les étapes pour créer les cartes clients :\nPremière étape : Créer la carte :\n- Ouvrez le site Cassy avec le lien fourni par votre supérieur.\n- Sur le site, cliquez sur 'Gestion des utilisateurs'.\n- Cliquez sur 'Gestion de carte'.\n- Remplissez attentivement les informations du formulaire fourni par votre supérieur dans les champs ci-dessous, puis enregistrez.\nDeuxième étape : Créer le titulaire :\n- Cliquez sur 'Gestion des utilisateurs' et cliquez sur 'Gestion des titulaires'.\n- Remplissez les champs ci-dessous avec les informations du formulaire et enregistrez.\nTroisième étape : Lier la carte et le titulaire :\n- Cliquez sur 'Gestion des clients'.\n- Insérez le nom du titulaire et le numéro de la carte.\n- Remplissez les informations telles que fournies par le formulaire et enregistrez.\nQuatrième étape : Exporter la carte vers l’imprimante :\n- Cherchez la carte soit par le numéro, soit par le nom.\n- Cliquez sur 'Exporter'.\n- Allez dans le dossier 'Téléchargements', récupérez le fichier exporté et insérez-le dans le dossier 'carte csv' situé dans le dossier partagé.\nCinquième étape : Imprimer la carte :\n- Allez sur l’ordinateur connecté à l’imprimante et cherchez le fichier dans le dossier 'carte csv'.\n- Importez le fichier dans 'modèle carte' sur le bureau.\n- Cliquez sur 'Client' et entrez le mot de passe.\n- Insérez la carte vierge dans l’imprimante en cochant 'recto', puis imprimez.\n- Retirez la carte, remettez-la dans l’autre sens, cochez 'verso' et imprimez.\n- Retirez la carte et vérifiez s’il n’y a pas d’erreur.\nDernière étape : Personnaliser la carte dans le terminal :\n- Insérez la carte admin dans le terminal et entrez le mot de passe.\n- Retirez la carte admin et insérez la carte utilisateur.\n- Cliquez sur Personnaliser et insérez le code sur la carte.\n- Synchronisez la carte.\n- Vérifiez les informations sur la carte."
+        ]
+      },
+      {
+        "tag": "lenteur",
+        "patterns": [
+          "Comment accélérer mon ordinateur ?",
+          "Mon ordinateur est trop lent"
+        ],
+        "responses": [
+          "Voici un guide pour vous aider à diagnostiquer et améliorer les performances de votre ordinateur :\nÉtapes pour accélérer un ordinateur lent :\n1. Redémarrez l'ordinateur.\n- Parfois, un simple redémarrage peut résoudre des problèmes de lenteur en libérant la mémoire et en fermant les applications non nécessaires.\n2. Vérifiez les programmes au démarrage.\n- Ouvrez le Gestionnaire des tâches (Ctrl + Shift + Esc).\n- Allez à l'onglet 'Démarrage'.\n- Désactivez les programmes non nécessaires qui se lancent au démarrage.\n3. Nettoyez les fichiers temporaires et les caches.\n- Utilisez l'outil de nettoyage de disque (recherchez 'Nettoyage de disque' dans la barre de recherche).\n- Sélectionnez les fichiers temporaires, les fichiers système, et autres éléments à supprimer.\n4. Vérifiez les programmes en cours d’exécution.\n- Ouvrez le Gestionnaire des tâches.\n- Regardez les applications et processus qui utilisent beaucoup de mémoire et de CPU. Fermez ceux qui ne sont pas nécessaires.\nhttps://www.youtube.com/watch?v=0-BCqswy_z8"
+        ]
+      }
+    ]
+  }
+  
